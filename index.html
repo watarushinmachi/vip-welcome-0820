@@ -122,7 +122,7 @@
   .rows{display:flex;flex-direction:column;gap:.8cqw;flex:1}
   .srow{display:grid;grid-template-columns:repeat(12,1fr);gap:.7cqw;flex:1}
   .seat{border-radius:.35cqw;background:#D9DEE9}
-  .srow.vip .seat{background:var(--grad)}
+  .seat.v{background:var(--grad)}
   .blocklabel{display:flex;align-items:center;gap:.9cqw;font-size:1.35cqw;font-weight:900}
   .blocklabel .sw{width:1.5cqw;height:1.5cqw;border-radius:.3cqw}
   .seatside{flex:1 1 0;display:flex;flex-direction:column;gap:1.4cqw;justify-content:center}
@@ -285,15 +285,15 @@
       <div class="venue card">
         <div class="stage">ステージ</div>
         <div class="rows">
-          <div class="srow vip"><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div></div>
-          <div class="srow vip"><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div></div>
-          <div class="srow"><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div></div>
+          <div class="srow"><div class="seat v"></div><div class="seat v"></div><div class="seat v"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat v"></div><div class="seat v"></div><div class="seat v"></div></div>
+          <div class="srow"><div class="seat v"></div><div class="seat v"></div><div class="seat v"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat v"></div><div class="seat v"></div><div class="seat v"></div></div>
+          <div class="srow"><div class="seat v"></div><div class="seat v"></div><div class="seat v"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat v"></div><div class="seat v"></div><div class="seat v"></div></div>
           <div class="srow"><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div></div>
           <div class="srow"><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div><div class="seat"></div></div>
         </div>
       </div>
       <div class="seatside">
-        <div class="blocklabel"><span class="sw" style="background:var(--grad)"></span>VIP専用席（前方ブロック）</div>
+        <div class="blocklabel"><span class="sw" style="background:var(--grad)"></span>VIP専用席（前方の左右ブロック）</div>
         <div class="blocklabel"><span class="sw" style="background:#D9DEE9"></span>一般席</div>
         <div class="pointrow">
           <svg class="tealck" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#15BEA9"/><path d="M6.5 12.5l3.5 3.5 7-8" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
